@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model weights & checkpoints (too large for git)
+SadTalker/
+checkpoints/
+gfpgan/
+*.pth
+*.pth.tar
+*.safetensors
+*.onnx
+
+# Pipeline working directories
+uploads/
+outputs/
+
+# TTS model cache
+~/.local/share/tts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / env
+.env
+*.env
